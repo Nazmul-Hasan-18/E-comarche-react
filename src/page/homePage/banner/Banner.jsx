@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="container mx-auto  relative py-10">
         <img
           className="md:h-130 object-cover rounded-xl w-full"
-          src="/../../../../public/image/execulisive colloction.jpg"
+          src="https://sakib-ecommerce-react-router.netlify.app/assets/execulisive%20colloction-xPfol6Zx.jpg"
           alt=""
         />
         <div className="bg- absolute top-17 md:top-40 md:right-26 right-6">

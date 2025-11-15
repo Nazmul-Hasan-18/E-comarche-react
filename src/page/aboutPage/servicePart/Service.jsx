@@ -1,5 +1,5 @@
 import React from 'react';
-import Suport from '../../homePage/supportPage/suport';
+import Suport from '../../homePage/supportPage/Suport';
 
 const Service = () => {
     return (

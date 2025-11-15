@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaHome, FaShippingFast } from "react-icons/fa";
 import { IoCart } from "react-icons/io5";
 import { TfiHeadphoneAlt } from "react-icons/tfi";

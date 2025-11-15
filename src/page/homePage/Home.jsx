@@ -3,7 +3,7 @@ import Card from "./card/Card";
 import DealPage from "./dealpage/DealPage";
 import Hero from "./hero/Hero";
 import MiniCard from "./miniCard/MiniCard";
-import Suport from "./supportPage/suport";
+import Suport from "./supportPage/Suport";
 import Tesmosial from "./tesmosialPage/Tesmosial";
 
 const Home = () => {

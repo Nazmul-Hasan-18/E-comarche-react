@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 
 const Blog = ({count}) => {
     const {items} = useCustomHook('products.json')
-    const bal =count ? items.filter(item=> item.categoryId === count) :items
+    const bal =count ? items.filter(item=> item.categoryName === count) :items
     return (
         <div className='grid md:grid-cols-5 grid-cols-1 container mx-auto md:px-26 px-19 gap-6 py-8'>
             

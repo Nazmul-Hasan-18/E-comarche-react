@@ -6,7 +6,7 @@ import ProductCard from '../../shared/shareProduct/ProductCard';
 const ShopProduct = ({count , width}) => {
     const {items} = useCustomHook('products.json')
     const products =  items.filter(item=>{
-    const matchId = count ? item.id == count : items
+    const matchId = count ? item.categoryId == count : items
     const matchWidth = width ? item.width == width : items
     return matchId && matchWidth;
 

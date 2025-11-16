@@ -5,9 +5,9 @@ import useCustomHook from "../../../shared/customHook/UseCustomHook";
 const Category = () => {
   const { items } = useCustomHook("category.json");
   const [count, setCount] = useState(null);
-  const handleClick = (id) => {
-    setCount(id);
-    console.log(count);
+  const handleClick = (name) => {
+    setCount(name);
+    
 
   };
 
@@ -29,7 +29,7 @@ const Category = () => {
           {items.map((item) => (
             <div key={item.name}>
               <p
-                onClick={() => handleClick(item.id)}
+                onClick={() => handleClick(item.name)}
                 className="cursor-pointer hover:text-[#56a29c] duration-300 ml-7 md:ml-0"
               >
                 {item.name}
